@@ -305,17 +305,53 @@ article .news_resume{
     text-decoration: none;
     color: white;
 }
+.info{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 20px;
+    color: #5c5c5c;
+}
 .title_footer{
     justify-content: center;
-    display: flex;
     color: white;
     font-size: 21px;
     font-weight: bold;
 }
 .bar_footer{
+    align-self: center;
     justify-content: right;
     width: 50px;
     height: 3px;
     background: var(--color1);
     margin-top: 5px;
+    margin-bottom: 20px;
+}
+.text_info{
+    max-width: 350px;
+    color: var(--color-text-header);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.anddrees{
+    max-width: 350px;
+    color: var(--color-text-header);
+    font-size: 15px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    color: var(--color-text-header);
+    font-size: 15px;
+}
+.tel_email{
+    position: relative;
+}
+.confi{
+    height: 60px;
+    top:80%;
+    left: -150px;
+    position: absolute;
+    margin: -18px 0 0 ;
 }
