@@ -12,6 +12,7 @@
     --color-banner1: #39aae1;
     --color-banner2: #0079c7;
     --color-banner3: #2b4c99;
+    --color-footer: #000000df;
 }
 
 
@@ -242,11 +243,10 @@ article .news_thumb img{
     background-size: cover;
     max-width:300px ;
     height: auto;
-    
 }
 article .news_title{
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     color: black;
     font-size: 23px;
 }
@@ -254,4 +254,68 @@ article .news_resume{
     font-size: 14px;
     color: var(--color-text);
     line-height: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+#footer{
+    justify-content: center;
+    background-color: var(--color-footer);
+}
+.container_footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-footer);
+}
+.elemento1{
+    background-color: var(--color1);
+    padding: 20px;
+}
+.elemento1 h1{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.elemento1 a{
+    text-decoration: none;
+    color: white;
+}
+.elemento2{
+    background-color: #0079c7;
+    padding: 20px;
+}
+.elemento2 h1{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.elemento2 a{
+    text-decoration: none;
+    color: white;
+}
+.elemento3{
+    background-color: #2b4c99;
+    padding: 20px;
+}
+.elemento3 h1{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.elemento3 a{
+    text-decoration: none;
+    color: white;
+}
+.title_footer{
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+.bar_footer{
+    justify-content: right;
+    width: 50px;
+    height: 3px;
+    background: var(--color1);
+    margin-top: 5px;
 }
