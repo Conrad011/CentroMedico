@@ -257,54 +257,100 @@ article .news_resume{
     margin-bottom: 20px;
     max-width: 300px;
 }
-#footer{
-    justify-content: center;
-    background-color: var(--color-footer);
-}
-.container_footer{
+
+#rodape{
+    background-color: #000000df;
     display: flex;
     justify-content: center;
-    background-color: var(--color-footer);
 }
 .elemento1{
-    background-color: var(--color1);
+    align-items: center;
     padding: 20px;
-}
-.elemento1 h1{
-    color: white;
-    font-weight: 400;
-    margin-bottom: 5px;
-}
-.elemento1 a{
-    text-decoration: none;
+    background-color: #39aae1;
     color: white;
 }
 .elemento2{
-    background-color: #0079c7;
+    align-items: center;
     padding: 20px;
-}
-.elemento2 h1{
-    color: white;
-    font-weight: 400;
-    margin-bottom: 5px;
-}
-.elemento2 a{
-    text-decoration: none;
+    background-color: #0079c7;
     color: white;
 }
 .elemento3{
-    background-color: #2b4c99;
+    align-items: center;
     padding: 20px;
-}
-.elemento3 h1{
+    background-color: #2b4c99;
     color: white;
-    font-weight: 400;
-    margin-bottom: 5px;
 }
-.elemento3 a{
+section a {
     text-decoration: none;
     color: white;
 }
+section .h1 {
+    margin: 0px;
+    margin-bottom: 30px;
+}
+section .p{
+    margin: 0px;
+    padding-bottom: 30px;
+}
+.p_footer{
+    padding: 0px;
+}
+section .artigo1{
+    display: flex;
+    justify-content: center;
+}
+#materias{
+    background-color: #000000df;
+    display: flex;
+    justify-content: center;
+}
+div.titulo_rodape{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.title{
+    max-width: 350px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.title1{
+    max-width: 320px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.title2{
+    max-width: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+footer .link_footer{
+    color: #0079c7;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+section .linkfotter{
+    color: #0079c7;
+    margin-bottom: 20px;
+}
+.info_footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    margin-top: 20px;
+   
+}
+.address{
+    color: #5c5c5c;
+}
+
+
 .info{
     display: flex;
     justify-content: center;
@@ -313,45 +359,64 @@ article .news_resume{
     padding-right: 20px;
     color: #5c5c5c;
 }
-.title_footer{
-    justify-content: center;
-    color: white;
-    font-size: 21px;
-    font-weight: bold;
-}
-.bar_footer{
-    align-self: center;
-    justify-content: right;
-    width: 50px;
-    height: 3px;
-    background: var(--color1);
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
-.text_info{
-    max-width: 350px;
-    color: var(--color-text-header);
-    font-size: 15px;
-    margin-bottom: 20px;
-}
-.anddrees{
-    max-width: 350px;
-    color: var(--color-text-header);
-    font-size: 15px;
-}
-.contact{
+p.color_footer{
+    color: #ffffff;
     display: flex;
     justify-content: center;
-    color: var(--color-text-header);
-    font-size: 15px;
+    margin: 0px;
 }
-.tel_email{
-    position: relative;
+
+.bar_footer{
+    width: 50px;
+    height: 3px;
+    background-color: #39aae1;
+    margin-bottom: 20px;
 }
-.confi{
-    height: 60px;
-    top:80%;
-    left: -150px;
-    position: absolute;
-    margin: -18px 0 0 ;
+.title_footer{
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+.text_footer{
+    color: #5c5c5c;
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom:5px;
+}
+.text_footer1{
+    color: #5c5c5c;
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.space{
+    
+    padding-right: 20px;
+}
+.color_text{
+    color: #ffffff;
+    margin: 0px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+.color_text1{
+    color: #ffffff;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+.hr_footer{
+    margin: 0px;
+    padding: 0px;
+}
+.copy{
+    background-color: #000000df;
+    display: flex;
+    justify-content: center;
+}
+.escuro{
+    color: gray;
+}
+.claro{
+    color: white;
 }
