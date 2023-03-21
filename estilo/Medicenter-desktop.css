@@ -197,6 +197,18 @@ nav a:hover{
     background-color: var(--color1);
     margin-top: 10px;
 }
+.telefone{
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+.email{
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+.agenda{
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -350,7 +362,6 @@ section .linkfotter{
     color: #5c5c5c;
 }
 
-
 .info{
     display: flex;
     justify-content: center;
@@ -405,10 +416,7 @@ p.color_footer{
     margin: 0px;
     padding-bottom: 5px;
 }
-.hr_footer{
-    margin: 0px;
-    padding: 0px;
-}
+
 .copy{
     background-color: #000000df;
     display: flex;

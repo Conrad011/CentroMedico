@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@media screen and (max-width:600px){
+    #banner{
+        background-size: contain;
+        background: url('../imagens/img1-phone.jpg') no-repeat top center;
+    }
+    .banner_headline{
+        padding: 20px;
+    }
+    .banner_headline h1 {
+        color: white;
+        font-size: 55px;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.637);
+        margin: 0px;
+        padding: 0px;
+        width: 300px;
+    }
+    .banner_headline h2 {
+        color: white;
+        font-size: 17px;
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.637);
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+        max-width: 350px;
+    }
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    #geral section{
+        padding: 30px;
+        margin-top: 90px;
+    }
+    #geral aside{
+        padding: 30px;
+    }
+    #rodape{
+        flex-direction: column;
+    }
+    #materias{
+        flex-direction: column;
+    }
+    .title_footer1{
+        color: white;
+        font-weight: bold;
+        margin: 0px;
+        padding-left: 20px;
+    }
+    .bar_footer1{
+        width: 50px;
+        height: 3px;
+        background-color: #39aae1;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .text{
+        padding-left: 20px;
+    }
+    .info_footer{
+        padding: 20px;
+    }
+}
