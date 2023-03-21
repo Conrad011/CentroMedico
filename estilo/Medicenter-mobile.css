@@ -1,6 +1,19 @@
 @charset "UTF-8";
 
 @media screen and (max-width:600px){
+    header{
+        height: auto;
+    }
+    .logo{
+        padding-left: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+    }
+    .menuMobile{
+        display: block;
+    }
     #banner{
         background-size: contain;
         background: url('../imagens/img1-phone.jpg') no-repeat top center;
@@ -64,4 +77,8 @@
     .info_footer{
         padding: 20px;
     }
+    header .container{
+        flex-direction: row;
+    }
+
 }
