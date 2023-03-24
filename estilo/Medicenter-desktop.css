@@ -24,8 +24,7 @@ header{
 .container{
     display: flex;
     justify-content: space-between;
-    width: 990px;
-    
+    width: 990px;  
 }
 .logo{
 display: flex;
